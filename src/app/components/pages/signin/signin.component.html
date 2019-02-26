@@ -1,0 +1,23 @@
+<div class="form-base signin-form">
+  <form #form="ngForm" (ngSubmit)="onSubmit(form.value)">
+    <app-form-item-wrapper>
+      <app-label for="username" item-label>Login</app-label>
+      <app-input name="username" item-body value={{username}} placeholder="Enter login"></app-input>
+    </app-form-item-wrapper>
+    <app-form-item-wrapper>
+      <app-label for="password" item-label>Password</app-label>
+      <app-input name="password" item-body value={{password}} placeholder="Enter password"></app-input>
+    </app-form-item-wrapper>
+    <app-form-item-wrapper classes="form-item-wrapper signin-form__buttons">
+        <app-button item-body class="button button-success_reverse">Регистрация</app-button>
+        <app-button item-body type="submit">Войти</app-button>
+    </app-form-item-wrapper>
+    <app-form-item-wrapper class="form-item-wrapper signin-form__accounts">
+        <div item-body class='signin-form-item__account signin-form-item__github'>
+          <a href={uri}>
+              <!-- <FontAwesomeIcon icon={icon} /> -->
+          </a>
+        </div>
+    </app-form-item-wrapper>
+  </form>
+</div>

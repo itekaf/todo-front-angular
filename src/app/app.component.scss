@@ -1,0 +1,47 @@
+
+  /* Colors */
+  $color-white-light: hsl(0, 0%, 100%);
+  $color-white-normal: hsl(0, 0%, 97%);
+  $color-white-normal-alpha: rgba(247, 247, 247, 0.3);
+  $color-white-dark: hsl(0, 0%, 87%);
+
+  $color-blue-normal: hsl(204, 64%, 44%);
+  $color-blue-dark: hsl(204, 64%, 34%);
+  $color-red-normal: hsl(6, 77%, 57%);
+
+  $color-white-light: hsl(0, 0%, 100%);
+  $color-white-normal: hsl(0, 0%, 97%);
+  $color-white-normal-alpha: rgba(247, 247, 247, 0.3);
+  $color-white-dark: hsl(0, 0%, 87%);
+
+  $color-blue-light: hsl(204, 64%, 54%);
+  $color-blue-normal: hsl(204, 64%, 44%);
+  $color-blue-dark: hsl(204, 64%, 34%);
+
+  $color-orange-light: hsl(30, 100%, 60%);;
+  $color-orange-normal: hsl(30, 100%, 50%);;
+  $color-orange-normal-alpha: rgba(255, 127, 0, 0.3);;
+  $color-orange-dark: hsl(30, 100%, 40%);;
+
+  $color-red-light: hsl(6, 78%, 67%);;
+  $color-red-normal: hsl(6, 77%, 57%);
+  $color-red-normal-alpha: rgba(230, 76, 59, 0.3);
+  $color-red-dark: hsl(6, 78%, 47%);;
+
+  $color-green-light: hsl(117, 15%, 56%);
+  $color-green-normal: hsl(117, 16%, 46%);
+  $color-green-normal-alpha: rgba(100, 136, 98, 0.3);
+  $color-green-dark: hsl(117, 16%, 36%);
+
+  $color-gray-light: hsl(184, 9%, 72%);
+  $color-gray-normal: hsl(184, 9%, 62%);
+  $color-gray-dark: hsl(184, 6%, 52%);
+
+  $color-black-light: hsl(211, 19%, 39%);
+  $color-black-normal: hsl(211, 29%, 29%);
+  $color-black-dark: hsl(211, 29%, 19%);
+
+  /* Defaults */
+  $default-font: 'Tahoma', Arial, sans-serif;
+  $default-bg-color: $color-white-normal;
+

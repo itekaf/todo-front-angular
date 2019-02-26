@@ -1,0 +1,10 @@
+<div className='list-main'>
+    <ul>
+      <app-list-item
+        *ngFor="let list of lists"
+        [list]="todo"
+        (searchList)="searchList($event)"
+      >
+      </app-list-item>
+    </ul>
+</div>

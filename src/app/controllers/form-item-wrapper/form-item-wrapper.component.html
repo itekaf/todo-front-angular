@@ -1,0 +1,14 @@
+<div class={{classes}}>
+  <ng-container *ngTemplateOutlet="labelTemplate ? labelTemplate : defaultLabel"></ng-container>
+  <ng-container *ngTemplateOutlet="contentTemplate ? contentTemplate : defaultContent"></ng-container>
+  <ng-container *ngTemplateOutlet="validationTemplate ? validationTemplate : defaultValitaion"></ng-container>
+</div>
+<ng-template #defaultLabel>
+  <ng-content select="[item-label]"></ng-content>
+</ng-template>
+<ng-template #defaultContent>
+    <ng-content select="[item-body]"></ng-content>
+</ng-template>
+<ng-template #defaultValidation>
+    <app-form-item-validation errors="errors"></app-form-item-validation>
+</ng-template>

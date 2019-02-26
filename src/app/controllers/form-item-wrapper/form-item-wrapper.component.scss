@@ -1,0 +1,10 @@
+@import '../../app.component.scss';
+
+.form-item-wrapper {
+  border-bottom: 1px solid $color-white-normal;
+  margin: 10px 0;
+  padding: 15px 5px;
+  min-height: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,17 @@
+.is-compelete {
+  text-decoration: line-through;
+}
+.todo {
+  background:  #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.del {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}

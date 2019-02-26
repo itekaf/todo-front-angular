@@ -1,0 +1,43 @@
+
+@import '../../app.component.scss';
+
+:host ::ng-deep .button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  color: $color-white-normal;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+  max-height: 35px;
+  min-width: 40px;
+
+  &-empty {
+    background: none;
+  }
+
+  &-alert {
+    background: $color-red-normal;
+    color: $color-white-normal;
+  }
+
+  &-success {
+    background: $color-blue-normal;
+  }
+
+  &-success:hover {
+    background: $color-blue-dark;
+  }
+
+  &-success_reverse {
+    background: none;
+    border: 1px solid $color-blue-normal;
+    color: $color-blue-normal;
+  }
+
+  &-success_reverse:hover {
+    background: $color-blue-normal;
+    color: $color-white-normal;
+  }
+}

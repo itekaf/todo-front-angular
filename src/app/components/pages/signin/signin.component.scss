@@ -1,0 +1,20 @@
+.signin-form {
+  max-width: 50%;
+  padding: 20px;
+}
+:host ::ng-deep .signin-form__buttons {
+  justify-content: space-between;
+}
+.signin-form__accounts {
+  font-size: 2.5em;
+  justify-content: center;
+}
+.signin-form__accounts a {
+  color: var(--color-black-light);
+}
+.signin-form__accounts a:hover {
+  color: var(--color-black-dark);
+}
+.signin-form_account {
+  margin: 0 10px;
+}
